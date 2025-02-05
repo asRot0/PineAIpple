@@ -12,5 +12,6 @@ def build_cnn_model(input_shape=(128, 128, 3), num_classes=10):
         Dropout(0.5),
         Dense(num_classes, activation='softmax')
     ])
+
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
