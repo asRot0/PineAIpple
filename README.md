@@ -13,7 +13,7 @@ fruit-classification/
 │   └── fruit.ipynb
 │
 ├── src/
-│   ├── data_preprocessing.py
+│   ├── data_preprocessing.py   # Data augmentation and preprocessing
 │   ├── model.py                # Define the CNN model
 │   ├── train.py                # Train the model
 │   ├── evaluate.py             # Evaluate the model
@@ -24,6 +24,7 @@ fruit-classification/
 ├── reports/
 │   └── performance_metrics.txt
 │
+├── app.py
 ├── requirements.txt
 └── README.md
 
