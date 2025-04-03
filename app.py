@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 
-model = load_model('models/fruit_cnn_model.h5')
+model = load_model('models/fruit_classifier_final.keras')
 
 st.title("Fruit Classifier")
 
