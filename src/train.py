@@ -13,6 +13,7 @@ early_stop = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=
 history = model.fit(
     train_generator,
     epochs=20,
+    verbose=2,
     validation_data=val_generator,
     callbacks=[checkpoint, early_stop]
 )
