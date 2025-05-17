@@ -11,38 +11,8 @@ The dataset used in this project is the **Fruits-360** dataset. It contains imag
 
 You can download the full dataset from [Fruits-360 Dataset on Kaggle](https://www.kaggle.com/datasets/moltean/fruits).
 
-### Project Structure
-```
-fruit-classification/
-│
-├── data/
-│   ├── train/       # Training images
-│   ├── val/         # Validation images
-│   ├── test/        # Test images
-│
-├── notebooks/
-│   └── fruit.ipynb
-│   └── pineaipple-train.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py   # Data augmentation and preprocessing
-│   ├── model.py                # Define the CNN model
-│   ├── train.py                # Train the model
-│   ├── evaluate.py             # Evaluate the model
-│
-├── models/
-│   └── fruit_classifier_final.keras
-│
-├── app.py
-├── requirements.txt
-└── README.md
-
-```
-
-
 ## Project Overview
 
-In this project, we:
 - Preprocess and augment the images using TensorFlow’s `ImageDataGenerator`.
 - Define a Convolutional Neural Network (CNN) model for image classification.
 - Train the model using the training and validation sets.
